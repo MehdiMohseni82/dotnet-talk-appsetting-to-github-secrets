@@ -5,4 +5,15 @@ Setting up a secure pipeline to perform release operations from Github repositor
 
 This is a simple tool that works on top of the GitHub API(s) to upload all variables and properties from the existing AppSettings to the GitHub secrets. The tool is written in Node Js. 
 
-## For using the tool, please follow these steps;
+## For using the tool, please follow these steps
+1. Find the repository id:
+   Finding a repository ID on GitHub can take hours as there is no user interface for this. I found an easy way to do this via the metadata element on the main page of    the repository on GitHub:
+
+1.1. View the page source (Right Click > View Page Source in Chrome or Firefox for example)
+1.2. Search the page source and look for octolytics-dimension-repository_id. You should find something that looks like:
+
+<meta content="123456789" name="octolytics-dimension-repository_id" />
+
+In this example, the ID of the repository is 123456789.
+
+2.  
