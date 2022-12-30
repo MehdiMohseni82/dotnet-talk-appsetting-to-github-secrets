@@ -17,7 +17,7 @@ This is a simple tool that works on top of the GitHub API(s) to upload all varia
 ### Create "Personal Access Token" in Your GitHub repository
 1. To do follow this link (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token)
 
-###
+### How to use
 1. Replace the [Auth Key] with your repository auth key that you generated.
 ![image](https://user-images.githubusercontent.com/37369620/210022437-b7a2f3ad-8605-434e-b616-ea2dd3cc35f4.png)
 2. Replace the [Repo Id] with your Repo Id (Step 1) and replace the [End Name] with the environment name (GitHub Repository Id)
