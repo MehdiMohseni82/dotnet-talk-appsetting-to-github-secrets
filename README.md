@@ -18,4 +18,6 @@ This is a simple tool that works on top of the GitHub API(s) to upload all varia
 1. To do follow this link (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token)
 
 ###
-```node app.js --source ./appsetting.json```
+1. 
+2. ``` yarn```
+3. ``` yarn github-secrets --source ./appsettings.json```
