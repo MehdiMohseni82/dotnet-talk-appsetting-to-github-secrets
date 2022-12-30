@@ -18,6 +18,10 @@ This is a simple tool that works on top of the GitHub API(s) to upload all varia
 1. To do follow this link (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-fine-grained-personal-access-token)
 
 ###
-1. 
-2. ```yarn```
-3. ```yarn github-secrets --source ./appsettings.json```
+1. Replace the [Auth Key] with your repository auth key that you generated.
+![image](https://user-images.githubusercontent.com/37369620/210022437-b7a2f3ad-8605-434e-b616-ea2dd3cc35f4.png)
+2. Replace the [Repo Id] with your Repo Id (Step 1) and replace the [End Name] with the environment name (GitHub Repository Id)
+![image](https://user-images.githubusercontent.com/37369620/210022581-2b26fecb-cb2f-4355-be51-8a9e1267e12d.png)
+
+3. ```yarn```
+4. ```yarn github-secrets --source ./appsettings.json```
