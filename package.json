@@ -1,0 +1,17 @@
+{
+  "name": "appsetting-2-github-secrets",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "postinstall": "",
+    "github-secrets": "node app.js"
+  },
+  "author": {
+    "name": "Mehdi Mohseni"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "minimist": "^1.2.7"
+  }
+}
