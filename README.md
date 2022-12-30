@@ -19,5 +19,5 @@ This is a simple tool that works on top of the GitHub API(s) to upload all varia
 
 ###
 1. 
-2. ``` yarn```
-3. ``` yarn github-secrets --source ./appsettings.json```
+2. ```yarn```
+3. ```yarn github-secrets --source ./appsettings.json```
